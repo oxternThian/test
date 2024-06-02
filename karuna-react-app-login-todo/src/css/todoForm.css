@@ -1,0 +1,93 @@
+.todoEditForm-outer-container {
+    background-color: hsla(0, 90%, 16%, 0.911);
+}
+
+
+.todoEditForm-inner-container {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 1px;
+}
+
+
+/*===================================================*/
+.todoForm-outer-container {
+    background-color: hsla(0, 90%, 16%, 0.911);
+    min-width: 50%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.todoForm-inner-container {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+input {
+    background-color: #702222ab;
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+
+
+/* CSS */
+.button-8 {
+    background-color: #e1ecf4;
+    border-radius: 3px;
+    border: 1px solid #7aa7c7;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #39739d;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.button-8:hover,
+.button-8:focus {
+    background-color: #b3d3ea;
+    color: #2c5777;
+}
+
+.button-8:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-8:active {
+    background-color: #a0c7e4;
+    box-shadow: none;
+    color: #2c5777;
+}

@@ -1,0 +1,85 @@
+.todoItem-outer-container {
+    background-color: hsla(0, 90%, 16%, 0.911);
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+.todoItem-inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*border-radius: 15px;
+    border: 1px solid rgb(149, 198, 238);*/
+    margin: 1px;
+}
+
+.item {
+    min-width: 75%;
+    align-items: center;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    /*font-weight: bold;*/
+    font-size: large;
+    color: white;
+}
+
+.item-done {
+    min-width: 75%;
+    align-items: center;
+    justify-content: left;
+    align-content: left;
+    text-align: left;
+    /*font-weight: bold;*/
+    font-size: large;
+    color: rgb(143, 134, 134);
+    text-decoration: line-through;
+}
+
+.item:hover,
+.item-done:hover {
+    color: rgb(95, 202, 216);
+    cursor: pointer;
+}
+
+
+.item:active,
+.item-done:active {
+    color: rgb(206, 85, 85);
+    cursor: pointer;
+}
+
+.icon-container {
+    align-items: center;
+    justify-content: flex-end;
+    /*padding-right: 5px;*/
+}
+
+.icon {
+    margin-left: 20px;
+}
+
+
+.icon:hover {
+    opacity: 1;
+    /* to black */
+    filter: invert(1);
+    /* or to blue */
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+    cursor: pointer;
+}
+
+
+
+.icon:active {
+    opacity: 1;
+    /* to black */
+    filter: invert(1);
+    /* or to blue */
+    filter: invert(0.2) sepia(1) saturate(15) hue-rotate(345deg);
+}

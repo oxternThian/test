@@ -1,0 +1,8 @@
+.outer-container {
+    min-width: 50%;
+    min-height: 15vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.mainContent-outer-container {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.body {
+    background-color: #776262;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    font-size: calc(10px + 2vmin);
+    color: rgb(17, 10, 10);
+}
+
+
+.title {
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(17, 10, 10);
+}
+
+
+
+.errorbox {
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.error {
+    color: #48ff42;
+}

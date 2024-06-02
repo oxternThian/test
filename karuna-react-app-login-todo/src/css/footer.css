@@ -1,0 +1,14 @@
+.foot-center {
+    text-align: center;
+    padding: 3px;
+    background-color: #282c34;
+    color: white;
+}
+
+.foot-left {
+    text-align: left;
+}
+
+.foot-rigth {
+    text-align: right;
+}
